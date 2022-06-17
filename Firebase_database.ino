@@ -3,10 +3,10 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 
-#define FIREBASE_HOST ""
-#define FIREBASE_AUTH ""
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
+#define FIREBASE_HOST "" //change with your host
+#define FIREBASE_AUTH "" //change with your auth token
+#define WIFI_SSID "" //change with your SSID
+#define WIFI_PASSWORD "" ////change with your password
 
 FirebaseData firebaseData;
 
